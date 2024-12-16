@@ -1,4 +1,4 @@
-import "@ionic/core/css/ionic.bundle.css";
+import "node_modules/@ionic/core/css/ionic.bundle.css";
 import "./style.css";
 
 // Import PWA elements (for web capabilities)
