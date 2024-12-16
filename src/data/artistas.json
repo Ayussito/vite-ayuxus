@@ -1,0 +1,185 @@
+{
+  "artistas": [
+    {
+      "artista": "Anuel",
+      "desc": "reggaeton",
+      "foto": "./fotos/Anuel.jpg",
+      "canciones": [
+        { "nombreC": "47" },
+        { "nombreC": "Amanece" },
+        { "nombreC": "Adicto" },
+        { "nombreC": "Baby Boo" },
+        { "nombreC": "Razones" },
+        { "nombreC": "Secreto" },
+        { "nombreC": "Verte ir" }
+      ]
+    },
+    {
+      "artista": "Mike towers",
+      "desc": "reggaeton",
+      "foto": "./fotos/MikeTowers.jpg",
+      "canciones": [
+        { "nombreC": "La curiosidad" },
+        { "nombreC": "Lala" },
+        { "nombreC": "La playa" },
+        { "nombreC": "Bandido" },
+        { "nombreC": "La forma en que me miras" }
+      ]
+    },
+    {
+      "artista": "Bad Gyal",
+      "desc": "reggaeton",
+      "foto": "./fotos/BadGyal.jpg",
+      "canciones": [
+        { "nombreC": "Alocao" },
+        { "nombreC": "La prendo" },
+        { "nombreC": "Fiebre" },
+        { "nombreC": "Blin blin" },
+        { "nombreC": "Chulo" },
+        { "nombreC": "Flow 2000" },
+        { "nombreC": "Zorra" }
+      ]
+    },
+    {
+      "artista": "Ozuna",
+      "desc": "reggaeton",
+      "foto": "./fotos/Ozuna.jpg",
+      "canciones": [
+        { "nombreC": "Si no te quiere" },
+        { "nombreC": "El farsante" },
+        { "nombreC": "Se preparo" },
+        { "nombreC": "Escapate conmigo" },
+        { "nombreC": "Tu foto" },
+        { "nombreC": "Me reclama" }
+      ]
+    },
+    {
+      "artista": "Kid Keo",
+      "desc": "reggaeton",
+      "foto": "./fotos/kid_keo.jpg",
+      "canciones": [
+        { "nombreC": "Ma vie" },
+        { "nombreC": "Dracukeo" },
+        { "nombreC": "Olvidate" },
+        { "nombreC": "Lollypop" }
+      ]
+    },
+    {
+      "artista": "Bad Bunny",
+      "desc": "reggaeton",
+      "foto": "./fotos/BadBunny.jpeg",
+      "canciones": [
+        { "nombreC": "La cancion" },
+        { "nombreC": "Dakiti" },
+        { "nombreC": "Callaita" },
+        { "nombreC": "Yo perreo sola" },
+        { "nombreC": "Soy peor" },
+        { "nombreC": "Safaera" },
+        { "nombreC": "Mia" }
+      ]
+    },
+    {
+      "artista": "Feid",
+      "desc": "reggaeton",
+      "foto": "./fotos/Feid.jpeg",
+      "canciones": [
+        { "nombreC": "Ferxxo" },
+        { "nombreC": "Si tu supieras" },
+        { "nombreC": "Classy 101" },
+        { "nombreC": "Friki" },
+        { "nombreC": "Yandel 150" },
+        { "nombreC": "Luna" }
+      ]
+    },
+    {
+      "artista": "Farruko",
+      "desc": "reggaeton",
+      "foto": "./fotos/Farruko.jpg",
+      "canciones": [
+        { "nombreC": "Pepas" },
+        { "nombreC": "Calma" },
+        { "nombreC": "Fantasias" },
+        { "nombreC": "Obsesionado" },
+        { "nombreC": "Chillax" },
+        { "nombreC": "Hola beba" },
+        { "nombreC": "Cositas que haciamos" }
+      ]
+    },
+    {
+      "artista": "Jhayco",
+      "desc": "reggaeton",
+      "foto": "./fotos/Jhayco.jpg",
+      "canciones": [
+        { "nombreC": "Fiel" },
+        { "nombreC": "Como se siente" },
+        { "nombreC": "512" },
+        { "nombreC": "Medusa" },
+        { "nombreC": "No me conoce" }
+      ]
+    },
+    {
+      "artista": "KarolG",
+      "desc": "reggaeton",
+      "foto": "./fotos/KarolG.jpg",
+      "canciones": [
+        { "nombreC": "Mi mala" },
+        { "nombreC": "A ella" },
+        { "nombreC": "Ahora me llama" },
+        { "nombreC": "amanece" },
+        { "nombreC": "Ya no te creo" },
+        { "nombreC": "Ricos besos" }
+      ]
+    },
+    {
+      "artista": "Bryant Myers",
+      "desc": "reggaeton",
+      "foto": "./fotos/BryantMyers.jpeg",
+      "canciones": [
+        { "nombreC": "Hasta abajo" },
+        { "nombreC": "Tanta falta" },
+        { "nombreC": "Gan-ga" },
+        { "nombreC": "No ando solo" },
+        { "nombreC": "24/7" }
+      ]
+    },
+    {
+      "artista": "El Alfa",
+      "desc": "reggaeton",
+      "foto": "./fotos/ElAlfa.jpg",
+      "canciones": [
+        { "nombreC": "Gogo dance" },
+        { "nombreC": "Bombom" },
+        { "nombreC": "Bendecido" },
+        { "nombreC": "Curazao" },
+        { "nombreC": "Singapur" },
+        { "nombreC": "Fulanito" },
+        { "nombreC": "4K" },
+        { "nombreC": "Mera woo" }
+      ]
+    },
+    {
+      "artista": "Manuel Turizo",
+      "desc": "reggaeton",
+      "foto": "./fotos/ManuelTurizo.jpeg",
+      "canciones": [
+        { "nombreC": "La bachata" },
+        { "nombreC": "Culpables" },
+        { "nombreC": "Sola" }
+      ]
+    },
+    {
+      "artista": "Quevedo",
+      "desc": "reggaeton",
+      "foto": "./fotos/Quevedo.jpg",
+      "canciones": [
+        { "nombreC": "Columbia" },
+        { "nombreC": "Punto G" },
+        { "nombreC": "El tonto" },
+        { "nombreC": "Vistas al mar" },
+        { "nombreC": "Wanda" },
+        { "nombreC": "My love" },
+        { "nombreC": "Mami chula" }
+      ]
+    }
+  ]
+}

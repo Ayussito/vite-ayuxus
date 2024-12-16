@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <ion-page>
+      <div id="app"></div>
+      <ion-header translucent>
+        <ion-toolbar>
+          <ion-title class="center-title">AyussitoMusic</ion-title>
+          <!-- <ion-label>Hola</ion-label> -->
+        </ion-toolbar>
+      </ion-header>
+
+      <ion-content>
+        <ion-tabs>
+          <ion-tab tab="home">
+            <ion-card>
+              <ion-card-header>
+                <ion-card-title>Lista</ion-card-title>
+                <ion-card-subtitle
+                  >Pide a tu artista favorito!</ion-card-subtitle
+                >
+              </ion-card-header>
+              <ion-card-content>
+                <ion-searchbar
+                  id="search-artist"
+                  placeholder="Buscar artista..."
+                ></ion-searchbar>
+                <div class="scrollable-list">
+                  <ion-list id="artist-list"></ion-list>
+                  <p
+                    id="no-artists"
+                    class="no-results-message"
+                    style="display: none"
+                  >
+                    El cantante no está disponible
+                  </p>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-tab>
+
+          <ion-tab-bar slot="bottom">
+            <ion-tab-button tab="home">
+              <ion-icon name="people-outline"></ion-icon>
+              <ion-label>Artistas</ion-label>
+            </ion-tab-button>
+            <ion-tab-button tab="todas">
+              <ion-icon name="musical-notes-outline"></ion-icon>
+              <ion-label>Todas las canciones</ion-label>
+            </ion-tab-button>
+          </ion-tab-bar>
+        </ion-tabs>
+      </ion-content>
+
+      <!-- Pop-Up Canciones -->
+      <ion-modal>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Canciones</ion-title>
+            <ion-buttons slot="end">
+              <ion-button
+                onclick="document.querySelector('ion-modal').isOpen = false"
+                >Close</ion-button
+              >
+            </ion-buttons>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content id="contenido-modal" class="ion-padding">
+          <p>Texto que sea, total si se va a cambiar</p>
+        </ion-content>
+      </ion-modal>
+    </ion-page>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

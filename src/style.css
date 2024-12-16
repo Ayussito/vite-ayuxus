@@ -1,0 +1,58 @@
+/* Tema oscuro */
+
+:root {
+  --ion-background-color: WHITE;
+  --ion-text-color: black;
+}
+
+:root.dark {
+  --ion-background-color: #121212;
+  --ion-text-color: #ffffff;
+}
+
+body {
+  background: var(--ion-background-color);
+  color: var(--ion-text-color);
+}
+
+ion-label {
+  color: black;
+}
+
+.center-title {
+  text-align: center;
+}
+.scrollable-list,
+.scrollable-songs {
+  max-height: 500px;
+  overflow-y: auto;
+}
+.custom-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(48, 48, 48, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal-content {
+  background: rgb(47, 47, 47);
+  width: 90%;
+  max-width: 500px;
+  border-radius: 8px;
+  padding: 20px;
+}
+.no-results-message {
+  text-align: center;
+  font-size: 1rem;
+  background-color: rgb(58, 57, 57);
+  margin-top: 10px;
+}
+.botones-c {
+  margin-left: auto;
+  /* margin: 50%; */
+}
