@@ -1,8 +1,8 @@
-import "node_modules/@ionic/core/css/ionic.bundle.css";
+import "@ionic/core/css/ionic.bundle.css";
 import "./style.css";
 
 // Import PWA elements (for web capabilities)
-import { defineCustomElements } from "node_modules/@ionic/core/loader/index.js";
+import { defineCustomElements } from "@ionic/core/loader/index.js";
 // Initialize PWA elements
 defineCustomElements(window);
 
